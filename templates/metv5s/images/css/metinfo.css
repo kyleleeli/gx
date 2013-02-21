@@ -26,11 +26,11 @@ nav ul li.hover a:hover,nav ul li.navdown a:hover{color:#fff;}
 
 /* kyleleeli */
 .top-nav .search{ display: inline-block; width:170px; height:29px; /*padding-top:6px;*/ padding-right:0px; }
-.top-nav form{ background:url(../blue/search.gif) no-repeat left 1px; width:157px; height:25px; margin-top: 10px;  } 
-.top-nav input.text{ width:126px; border:none; background:none; margin-left:1px; padding-left:1px; position:relative; top:-5px\9; line-height: 23px; }
+.top-nav .search form{ background:url(../blue/search.gif) no-repeat left 1px; width:157px; height:25px; margin-top: 10px;  } 
+.top-nav .search input.text{ width:126px; border:none; background:none; margin-left:1px; padding-left:1px; position:relative; top:-5px\9; line-height: 23px; }
 * html .top-nav input.text{ top:-3px;}/*ie6*/
 *+html .top-nav input.text{ top:-3px;}/*ie7*/
-.top-nav input.submit{  height:23px; width:23px; cursor:pointer; border:none; background:none; position:relative; top:2px; right:2px;  } 
+.top-nav .search input.submit{  height:23px; width:23px; cursor:pointer; border:none; background:none; position:relative; top:2px; right:2px;  } 
 
 .top-nav .lang{ display: inline-block; height: 29px;}
 
