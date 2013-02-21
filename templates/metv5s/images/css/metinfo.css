@@ -25,13 +25,25 @@ nav ul li.hover a:hover,nav ul li.navdown a:hover{color:#fff;}
 .met_flash ul{ margin:0px; padding:0px; }
 
 /* kyleleeli */
-.top-nav .search{ display: inline-block; width:170px; height:29px; padding-top:6px; padding-right:0px; }
-.top-nav form{ background:url(../blue/search.gif) no-repeat left 1px; width:157px; height:25px;  } 
+.top-nav .search{ display: inline-block; width:170px; height:29px; /*padding-top:6px;*/ padding-right:0px; }
+.top-nav form{ background:url(../blue/search.gif) no-repeat left 1px; width:157px; height:25px; margin-top: 10px;  } 
 .top-nav input.text{ width:126px; border:none; background:none; margin-left:1px; padding-left:1px; position:relative; top:-5px\9; line-height: 23px; }
 * html .top-nav input.text{ top:-3px;}/*ie6*/
 *+html .top-nav input.text{ top:-3px;}/*ie7*/
 .top-nav input.submit{  height:23px; width:23px; cursor:pointer; border:none; background:none; position:relative; top:2px; right:2px;  } 
 
+.top-nav .lang{ display: inline-block; height: 29px;}
+
+.top-nav .login{ padding-top:3px; display: inline-block;}
+.top-nav .login_x span{ padding-right:8px; }
+.top-nav .login a{ color:#f60; text-decoration:underline;}
+.top-nav .login span.log3,.top-nav .login span.log3 span{ padding-right:0px;}
+.top-nav .login span.log3 span{ padding-left:5px;}
+.top-nav .log1 input,.top-nav .log2 input,.top-nav .log4 input{ border:1px solid #dcdcdc; width:60px; height:14px; padding:1px;}
+.top-nav .log2 img{ width:50px; height:17px; margin:0px 5px; position:relative; bottom:1px; bottom:2px\9;}
+.top-nav .index_login1{ padding:0px 2px; color:#fff; cursor:pointer; border:none; background:#ccc; margin-right:5px;}
+s* html .index_login1{ padding-top:3px;}
+*+html .index_login1{ padding-top:3px;}
 
 /*metv5s专属Flash样式开始*/
 .Zbannar{width:100%; overflow:hidden;}
